@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Sharan</title>
+  <meta name="description" content="Get in touch with Sharan for web development work or collaborations." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact — Sharan" />
+  <meta property="og:image" content="assets/og-cover.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <div class="site-header-inner">
+      <p class="site-title">Sharan</p>
+      <nav aria-label="Primary">
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <p class="eyebrow">Let's talk</p>
+      <h1>Contact</h1>
+      <p class="hero-text">Have a project, an opportunity, or just a question? Send a message or reach out directly below.</p>
+    </section>
+
+    <section aria-labelledby="form-heading">
+      <h2 id="form-heading">Send a message</h2>
+
+      <form action="#" method="post" novalidate>
+        <fieldset>
+          <legend>Your details</legend>
+
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone number <span class="hint">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your message</legend>
+
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+        </fieldset>
+
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+
+      <div class="contact-details">
+        <h2>Other ways to reach me</h2>
+
+        <address>
+          Chennai, Tamil Nadu, India<br />
+          <a href="mailto:sharan.malaravanm@gmail.com">sharan.malaravanm@gmail.com</a>
+        </address>
+
+        <nav aria-label="Social media">
+          <ul class="social-links">
+            <li>
+              <a href="https://github.com/Sharan577" aria-label="Sharan on GitHub" target="_blank" rel="noopener noreferrer">GH</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/sharan3223" aria-label="Sharan on LinkedIn" target="_blank" rel="noopener noreferrer">in</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; 2026 Sharan. All rights reserved.</p>
+      <p><a href="mailto:sharan.malaravanm@gmail.com">sharan.malaravanm@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
